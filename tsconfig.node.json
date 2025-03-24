@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "types": ["node", "electron-vite/node"],
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/main/*"],
+      "@shared/*": ["src/shared/*"],
+      "@workers/*": ["src/workers/*"]
+    },
+  },
+  "include": [
+    "src/main/**/*",
+  ],
+}
